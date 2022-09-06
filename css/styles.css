@@ -4,7 +4,7 @@ body{
 }
 
 header{
-  background: #cefbf9;
+  background: rgb(199, 247, 247);
 }
 
 img{
@@ -15,6 +15,18 @@ h1,
 h2,
 p{
   margin: 0;
+}
+
+.btn {
+  display: block;
+  width: 160px;
+  background: #17e794;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 32px auto 0;
 }
 /* header */
 header .container{
@@ -52,7 +64,6 @@ header ul li{
 main .container{
   width: 400px;
   margin: 0 auto;
-
 }
 
 main h1{
@@ -78,6 +89,8 @@ main p{
 main section + section{
   margin-top: 60px;
 }
+
+
 /* footer */
 footer{
   padding: 60px 0;
